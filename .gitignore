@@ -1,3 +1,42 @@
 .DS_Store
 .idea
 Notes.txt
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+blue-daisy-artistry-app/node_modules
+blue-daisy-artistry-app/.pnp
+blue-daisy-artistry-app/.pnp.js
+blue-daisy-artistry-app/.yarn/install-state.gz
+
+# testing
+blue-daisy-artistry-app/coverage
+
+# next.js
+blue-daisy-artistry-app/.next/
+blue-daisy-artistry-app/out/
+
+# production
+blue-daisy-artistry-app/build
+
+# misc
+blue-daisy-artistry-app/.DS_Store
+blue-daisy-artistry-app/*.pem
+
+# debug
+blue-daisy-artistry-app/npm-debug.log*
+blue-daisy-artistry-app/yarn-debug.log*
+blue-daisy-artistry-app/yarn-error.log*
+
+# local env files
+blue-daisy-artistry-app/.env*.local
+
+# vercel
+blue-daisy-artistry-app/.vercel
+
+# typescript
+blue-daisy-artistry-app/*.tsbuildinfo
+blue-daisy-artistry-app/next-env.d.ts
+
+/blue-daisy-artistry-app/.env
